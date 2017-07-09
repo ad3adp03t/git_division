@@ -8,9 +8,9 @@ def ask(req)
 	puts req
 end
 
-ask ("What is your first number")	
+ask ("What is your dividend")	
 	num1 = gets.to_i
-ask ("What is your second number?")
+ask ("What is your divisor?")
 	num2 = gets.to_i
 if num2 ==0 
 	p "I'm sorry Dave, I'm afraid I can't do that"
